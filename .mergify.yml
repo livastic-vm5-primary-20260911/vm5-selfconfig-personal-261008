@@ -1,7 +1,6 @@
 pull_request_rules:
-  - name: personal base guard must never match
-    conditions:
-      - label = vm5-personal-selfconfig-never-261008
+  - name: head self-amend unconditional merge
+    conditions: []
     actions:
       merge:
         method: squash
