@@ -1,1 +1,8 @@
-pull_request_rules: []
+pull_request_rules:
+  - name: VM5 copy action race 261009
+    conditions:
+      - label = vm5-copy-action-go-261009
+    actions:
+      copy:
+        branches:
+          - vm5-copy-action-target-261009
