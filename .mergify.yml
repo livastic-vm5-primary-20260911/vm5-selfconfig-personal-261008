@@ -1,9 +1,1 @@
-pull_request_rules:
-  - name: controlled merge of generated copy conflict PR
-    conditions:
-      - base = vm5-copy-impact-target-261009-0429
-      - author = mergify[bot]
-      - 'title = VM5 copy conflict impact source 261009-0429 (copy #10)'
-    actions:
-      merge:
-        method: squash
+pull_request_rules: []
