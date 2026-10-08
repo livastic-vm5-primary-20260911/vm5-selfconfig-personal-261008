@@ -1,8 +1,1 @@
-pull_request_rules:
-  - name: ordinary merge of Mergify copy PR
-    conditions:
-      - base = vm5-copy-race-ordinary-target-261009-0500
-      - author = mergify[bot]
-    actions:
-      merge:
-        method: squash
+pull_request_rules: []
