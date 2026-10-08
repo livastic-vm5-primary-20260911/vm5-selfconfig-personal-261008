@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 base-side
+=======
+source-side
+>>>>>>> e6e0217 (prepare VM5 copy race source side)
