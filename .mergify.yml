@@ -1,8 +1,1 @@
-pull_request_rules:
-  - name: VM5 generated copy merge sink 261009
-    conditions:
-      - base=vm5-copy-target-conflict-261009
-      - "author=mergify[bot]"
-    actions:
-      merge:
-        method: merge
+pull_request_rules: []
