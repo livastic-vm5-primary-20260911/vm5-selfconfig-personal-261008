@@ -1,1 +1,9 @@
-pull_request_rules: []
+pull_request_rules:
+  - name: controlled merge of stale-conflict-gate copy
+    conditions:
+      - base = vm5-copy-race-target-261009-0448
+      - author = mergify[bot]
+      - label = conflicts
+    actions:
+      merge:
+        method: squash
