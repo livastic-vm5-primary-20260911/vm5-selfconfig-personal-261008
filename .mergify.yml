@@ -1,1 +1,9 @@
-pull_request_rules: []
+pull_request_rules:
+  - name: vm5 synthetic latest commit-status freshness
+    conditions:
+      - base = main
+      - head = vm5-status-freshness-261009-src
+      - check-success = vm5-freshness-status-261009
+    actions:
+      comment:
+        message: VM5 synthetic status freshness pass; no merging
