@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+base-side
+=======
+source-side
+>>>>>>> ordinary-source
