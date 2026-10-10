@@ -1,1 +1,8 @@
-pull_request_rules: []
+pull_request_rules:
+  - name: vm5-normal-copy-bot-automerge-261010
+    conditions:
+      - base = vm5-normal-copy-automerge-dest-261010
+      - author = mergify[bot]
+    actions:
+      merge:
+        method: squash
